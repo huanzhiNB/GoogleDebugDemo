@@ -1,0 +1,6 @@
+framework module GoogleDebugSdk {
+  umbrella header "GoogleDebugSdk.h"
+
+  export *
+  module * { export * }
+}

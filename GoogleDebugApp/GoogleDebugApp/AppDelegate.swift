@@ -7,6 +7,7 @@
 
 import UIKit
 import GoogleMobileAds
+import GoogleDebugSdk
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,6 +18,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         GADMobileAds.sharedInstance().start()
+        
+        //To fix the load error, please uncomment the next line
+        //GADInitializer.initializeGAD()
+        
+        
         return true
     }
 

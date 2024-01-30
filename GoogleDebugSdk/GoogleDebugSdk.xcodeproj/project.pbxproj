@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6618E4722B69BDA000D67F33 /* GADInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6618E4712B69BDA000D67F33 /* GADInitializer.swift */; };
 		66DCD9062B607F98009B1252 /* GoogleDebugSdk.docc in Sources */ = {isa = PBXBuildFile; fileRef = 66DCD9052B607F98009B1252 /* GoogleDebugSdk.docc */; };
 		66DCD90C2B607F98009B1252 /* GoogleDebugSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DCD9012B607F98009B1252 /* GoogleDebugSdk.framework */; };
 		66DCD9112B607F98009B1252 /* GoogleDebugSdkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DCD9102B607F98009B1252 /* GoogleDebugSdkTests.swift */; };
@@ -27,6 +28,7 @@
 /* Begin PBXFileReference section */
 		1BCE07F4A8567DDC6178A9BE /* libPods-GoogleDebugSdk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoogleDebugSdk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DE5776ADA09333E625BAA34 /* Pods-GoogleDebugSdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleDebugSdk.release.xcconfig"; path = "Target Support Files/Pods-GoogleDebugSdk/Pods-GoogleDebugSdk.release.xcconfig"; sourceTree = "<group>"; };
+		6618E4712B69BDA000D67F33 /* GADInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GADInitializer.swift; sourceTree = "<group>"; };
 		66DCD9012B607F98009B1252 /* GoogleDebugSdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleDebugSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66DCD9042B607F98009B1252 /* GoogleDebugSdk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogleDebugSdk.h; sourceTree = "<group>"; };
 		66DCD9052B607F98009B1252 /* GoogleDebugSdk.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = GoogleDebugSdk.docc; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 			children = (
 				66DCD9042B607F98009B1252 /* GoogleDebugSdk.h */,
 				66DCD9052B607F98009B1252 /* GoogleDebugSdk.docc */,
+				6618E4712B69BDA000D67F33 /* GADInitializer.swift */,
 			);
 			path = GoogleDebugSdk;
 			sourceTree = "<group>";
@@ -246,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66DCD9062B607F98009B1252 /* GoogleDebugSdk.docc in Sources */,
+				6618E4722B69BDA000D67F33 /* GADInitializer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,6 +459,7 @@
 		66DCD9192B607F98009B1252 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4PEHUZX8QH;
@@ -471,6 +476,7 @@
 		66DCD91A2B607F98009B1252 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4PEHUZX8QH;

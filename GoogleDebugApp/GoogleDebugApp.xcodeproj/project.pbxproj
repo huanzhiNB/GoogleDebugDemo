@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5E53EB7FCC082C3D1640DC2D /* Pods_GoogleDebugApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DAE56D4543B24D543E753B1 /* Pods_GoogleDebugApp.framework */; };
+		6618E4732B69BE9800D67F33 /* GoogleDebugSdk.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DCD95A2B608F44009B1252 /* GoogleDebugSdk.xcframework */; };
+		6618E4742B69BE9800D67F33 /* GoogleDebugSdk.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 66DCD95A2B608F44009B1252 /* GoogleDebugSdk.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		66DCD9282B60833A009B1252 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DCD9272B60833A009B1252 /* AppDelegate.swift */; };
 		66DCD92A2B60833A009B1252 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DCD9292B60833A009B1252 /* SceneDelegate.swift */; };
 		66DCD92C2B60833A009B1252 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DCD92B2B60833A009B1252 /* ViewController.swift */; };
@@ -36,6 +38,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		6618E4752B69BE9900D67F33 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6618E4742B69BE9800D67F33 /* GoogleDebugSdk.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		27260D3E05739F5C4CF2F2A5 /* Pods-GoogleDebugApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleDebugApp.debug.xcconfig"; path = "Target Support Files/Pods-GoogleDebugApp/Pods-GoogleDebugApp.debug.xcconfig"; sourceTree = "<group>"; };
 		4DAE56D4543B24D543E753B1 /* Pods_GoogleDebugApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleDebugApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +69,8 @@
 		66DCD9482B60833E009B1252 /* GoogleDebugAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleDebugAppUITests.swift; sourceTree = "<group>"; };
 		66DCD94A2B60833E009B1252 /* GoogleDebugAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleDebugAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		66DCD95A2B608F44009B1252 /* GoogleDebugSdk.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleDebugSdk.xcframework; sourceTree = "<group>"; };
+		66DCD95E2B6096C7009B1252 /* PrebidMobile.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = PrebidMobile.xcframework; sourceTree = "<group>"; };
+		66DCD9622B6096CD009B1252 /* PrebidMobileAdMobAdapters.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = PrebidMobileAdMobAdapters.xcframework; sourceTree = "<group>"; };
 		E233EF3D0757DCD9EE75B653 /* Pods-GoogleDebugApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleDebugApp.release.xcconfig"; path = "Target Support Files/Pods-GoogleDebugApp/Pods-GoogleDebugApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,6 +80,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E53EB7FCC082C3D1640DC2D /* Pods_GoogleDebugApp.framework in Frameworks */,
+				6618E4732B69BE9800D67F33 /* GoogleDebugSdk.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +167,8 @@
 		AB5B6ED445B570D8DA65BB2F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				66DCD9622B6096CD009B1252 /* PrebidMobileAdMobAdapters.xcframework */,
+				66DCD95E2B6096C7009B1252 /* PrebidMobile.xcframework */,
 				66DCD95A2B608F44009B1252 /* GoogleDebugSdk.xcframework */,
 				4DAE56D4543B24D543E753B1 /* Pods_GoogleDebugApp.framework */,
 			);
@@ -165,6 +186,8 @@
 				66DCD9202B60833A009B1252 /* Sources */,
 				66DCD9212B60833A009B1252 /* Frameworks */,
 				66DCD9222B60833A009B1252 /* Resources */,
+				B3C085B096EAECF3D53EB243 /* [CP] Embed Pods Frameworks */,
+				6618E4752B69BE9900D67F33 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -302,6 +325,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3C085B096EAECF3D53EB243 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleDebugApp/Pods-GoogleDebugApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleDebugApp/Pods-GoogleDebugApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoogleDebugApp/Pods-GoogleDebugApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

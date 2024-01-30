@@ -8,7 +8,7 @@ project 'GoogleDebugSdk/GoogleDebugSdk'
 target 'GoogleDebugApp' do
   project 'GoogleDebugApp/GoogleDebugApp'
   # Comment the next line if you don't want to use dynamic frameworks
-  # use_frameworks!
+  use_frameworks!
 
   # Pods for GoogleDebugSdk
   pod 'Google-Mobile-Ads-SDK', "10.14.0"

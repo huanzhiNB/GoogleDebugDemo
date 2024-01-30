@@ -1,6 +1,11 @@
 framework module GoogleDebugSdk {
   umbrella header "GoogleDebugSdk.h"
-
   export *
+
   module * { export * }
+}
+
+module GoogleDebugSdk.Swift {
+  header "GoogleDebugSdk-Swift.h"
+  requires objc
 }

@@ -4,21 +4,52 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/GoogleDebugSdk-Swift.h</key>
+		<data>
+		b+p+6lQMKfJshiidePz4TJcJraQ=
+		</data>
 		<key>Headers/GoogleDebugSdk.h</key>
 		<data>
 		mX3sZvKyC83mqXm/OhvlCSt3JUo=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Snb6y690o2nklcCIzv/m+1gRyXU=
+		9roDSaz9KPGS/j9r4C/riTGflDw=
+		</data>
+		<key>Modules/GoogleDebugSdk.swiftmodule/arm64-apple-ios.abi.json</key>
+		<data>
+		eBvwjfmOOE0SgLKmfJ5s39kh/OE=
+		</data>
+		<key>Modules/GoogleDebugSdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<data>
+		CQR1GPgxAlnGns1nDBUw89L9eZg=
+		</data>
+		<key>Modules/GoogleDebugSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<data>
+		P78Py5czc8kdJdcVrNMlNtDtw3M=
+		</data>
+		<key>Modules/GoogleDebugSdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<data>
+		CQR1GPgxAlnGns1nDBUw89L9eZg=
+		</data>
+		<key>Modules/GoogleDebugSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<data>
+		cpmBopoQ2vJDbQqVCHVoT3/653M=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		7UrqcEeqixL/QGoW/bom3KZcs7k=
+		OGzo6sThDrqgCUgRANQuDTybQwQ=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/GoogleDebugSdk-Swift.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JME3N5nLD+rLIZczI3oreqRkgfUENqcU5IaH25/b4j4=
+			</data>
+		</dict>
 		<key>Headers/GoogleDebugSdk.h</key>
 		<dict>
 			<key>hash2</key>
@@ -26,11 +57,46 @@
 			g2qD9Pf85u8Ad25/NN2dKyqCPpfVi9/b6DpMefFHIIk=
 			</data>
 		</dict>
+		<key>Modules/GoogleDebugSdk.swiftmodule/arm64-apple-ios.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Jvc1TdA2iW8EAuhYjBda60MtXSreTltmT8MlmC6vdks=
+			</data>
+		</dict>
+		<key>Modules/GoogleDebugSdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/bJsheIAlTD18mxWGUE7TYIrelLHOrfjTeNp2IVaupw=
+			</data>
+		</dict>
+		<key>Modules/GoogleDebugSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PJl8mHUhSn8VZEvP2784YdP12fHvmuXY8yTOGxEtXIo=
+			</data>
+		</dict>
+		<key>Modules/GoogleDebugSdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/bJsheIAlTD18mxWGUE7TYIrelLHOrfjTeNp2IVaupw=
+			</data>
+		</dict>
+		<key>Modules/GoogleDebugSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jVLQwKQjgtJAm54zWIC2b98WEGnanTzDF1zk3So6Ebs=
+			</data>
+		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			C812Wbja+gW5Bvo9SI3qd2O9YX8VChAwzVsivZm+d2U=
+			i4GEmN1ZWJC9ZfklhxMNCpLnMZHOMrQ7+5k3ssdhfWw=
 			</data>
 		</dict>
 	</dict>

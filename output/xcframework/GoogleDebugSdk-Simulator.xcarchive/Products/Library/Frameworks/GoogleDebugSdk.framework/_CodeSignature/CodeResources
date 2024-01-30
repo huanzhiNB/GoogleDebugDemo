@@ -4,21 +4,52 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/GoogleDebugSdk-Swift.h</key>
+		<data>
+		02JJto0k8SuP1tjNNTaaZNCuC4I=
+		</data>
 		<key>Headers/GoogleDebugSdk.h</key>
 		<data>
 		mX3sZvKyC83mqXm/OhvlCSt3JUo=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		gh5W4chNUCIzxxAApUPMl0+cFL4=
+		UH6w6gzux5vfeehbn98Joywdyl8=
+		</data>
+		<key>Modules/GoogleDebugSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<data>
+		eBvwjfmOOE0SgLKmfJ5s39kh/OE=
+		</data>
+		<key>Modules/GoogleDebugSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		AsAWKS4JY5+ZqcIUsm1Jtvw5iNA=
+		</data>
+		<key>Modules/GoogleDebugSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		oXmldvHRoWTfmD6fcmmR/LucyxI=
+		</data>
+		<key>Modules/GoogleDebugSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		AsAWKS4JY5+ZqcIUsm1Jtvw5iNA=
+		</data>
+		<key>Modules/GoogleDebugSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		eabzcd8f1Nm8rdZMwh+lmeP0/ww=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		7UrqcEeqixL/QGoW/bom3KZcs7k=
+		OGzo6sThDrqgCUgRANQuDTybQwQ=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/GoogleDebugSdk-Swift.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			IszDY1vxD8y8h2oIrc/C9/cQ0DL6wgXq3xV394vAZUk=
+			</data>
+		</dict>
 		<key>Headers/GoogleDebugSdk.h</key>
 		<dict>
 			<key>hash2</key>
@@ -26,11 +57,46 @@
 			g2qD9Pf85u8Ad25/NN2dKyqCPpfVi9/b6DpMefFHIIk=
 			</data>
 		</dict>
+		<key>Modules/GoogleDebugSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Jvc1TdA2iW8EAuhYjBda60MtXSreTltmT8MlmC6vdks=
+			</data>
+		</dict>
+		<key>Modules/GoogleDebugSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dy2mDuRv7BJ5zcqCRhYu9nnZMJrWKQPOuH2VXo/uL+s=
+			</data>
+		</dict>
+		<key>Modules/GoogleDebugSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zRHeznBAMHt/bw2qFL1G6pPtUqVayrJXu0tY1/gUDQc=
+			</data>
+		</dict>
+		<key>Modules/GoogleDebugSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dy2mDuRv7BJ5zcqCRhYu9nnZMJrWKQPOuH2VXo/uL+s=
+			</data>
+		</dict>
+		<key>Modules/GoogleDebugSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PZ/2WqRHoQPuTIeVq1tsbYw5xbKUrnJ0c4YCdDPsLak=
+			</data>
+		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			C812Wbja+gW5Bvo9SI3qd2O9YX8VChAwzVsivZm+d2U=
+			i4GEmN1ZWJC9ZfklhxMNCpLnMZHOMrQ7+5k3ssdhfWw=
 			</data>
 		</dict>
 	</dict>

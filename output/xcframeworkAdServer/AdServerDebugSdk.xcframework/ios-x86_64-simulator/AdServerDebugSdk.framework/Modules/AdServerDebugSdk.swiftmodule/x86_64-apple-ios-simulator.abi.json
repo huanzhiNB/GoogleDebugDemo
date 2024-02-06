@@ -525,56 +525,63 @@
     {
       "filePath": "\/Users\/huanzhizhang\/Huanzhi\/google-debug-demo\/AdServerDebugSdk\/AdServerDebugSdk\/AdServerDebugSdk\/AdRequestLoader.swift",
       "kind": "StringLiteral",
-      "offset": 1283,
+      "offset": 1271,
+      "length": 21,
+      "value": "\"demo error: no self\""
+    },
+    {
+      "filePath": "\/Users\/huanzhizhang\/Huanzhi\/google-debug-demo\/AdServerDebugSdk\/AdServerDebugSdk\/AdServerDebugSdk\/AdRequestLoader.swift",
+      "kind": "StringLiteral",
+      "offset": 1389,
       "length": 13,
       "value": "\"demo error:\""
     },
     {
       "filePath": "\/Users\/huanzhizhang\/Huanzhi\/google-debug-demo\/AdServerDebugSdk\/AdServerDebugSdk\/AdServerDebugSdk\/AdRequestLoader.swift",
       "kind": "StringLiteral",
-      "offset": 1643,
+      "offset": 1749,
       "length": 5,
       "value": "\"ext\""
     },
     {
       "filePath": "\/Users\/huanzhizhang\/Huanzhi\/google-debug-demo\/AdServerDebugSdk\/AdServerDebugSdk\/AdServerDebugSdk\/AdRequestLoader.swift",
       "kind": "StringLiteral",
-      "offset": 1725,
+      "offset": 1831,
       "length": 8,
       "value": "\"google\""
     },
     {
       "filePath": "\/Users\/huanzhizhang\/Huanzhi\/google-debug-demo\/AdServerDebugSdk\/AdServerDebugSdk\/AdServerDebugSdk\/AdRequestLoader.swift",
       "kind": "StringLiteral",
-      "offset": 1808,
+      "offset": 1914,
       "length": 12,
       "value": "\"ad_unit_id\""
     },
     {
       "filePath": "\/Users\/huanzhizhang\/Huanzhi\/google-debug-demo\/AdServerDebugSdk\/AdServerDebugSdk\/AdServerDebugSdk\/AdRequestLoader.swift",
       "kind": "StringLiteral",
-      "offset": 1971,
+      "offset": 2077,
       "length": 33,
       "value": "\"demo error: invalid ad response\""
     },
     {
       "filePath": "\/Users\/huanzhizhang\/Huanzhi\/google-debug-demo\/AdServerDebugSdk\/AdServerDebugSdk\/AdServerDebugSdk\/AdRequestLoader.swift",
       "kind": "StringLiteral",
-      "offset": 2677,
+      "offset": 2783,
       "length": 12,
       "value": "\"query_info\""
     },
     {
       "filePath": "\/Users\/huanzhizhang\/Huanzhi\/google-debug-demo\/AdServerDebugSdk\/AdServerDebugSdk\/AdServerDebugSdk\/AdRequestLoader.swift",
       "kind": "IntegerLiteral",
-      "offset": 2796,
+      "offset": 2902,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/huanzhizhang\/Huanzhi\/google-debug-demo\/AdServerDebugSdk\/AdServerDebugSdk\/AdServerDebugSdk\/AdRequestLoader.swift",
       "kind": "BooleanLiteral",
-      "offset": 2811,
+      "offset": 2917,
       "length": 4,
       "value": "true"
     }

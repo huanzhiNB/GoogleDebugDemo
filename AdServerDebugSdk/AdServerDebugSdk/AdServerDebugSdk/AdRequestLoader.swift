@@ -24,9 +24,13 @@ public class AdRequestLoader: NSObject {
                                            targeting: Targeting.shared,
                                            adUnitConfiguration: adUnitConfig)
         self.bidRequester = bidRequester
+        self.delegate = delegate
         
         bidRequester.requestBids { [weak self] bidResponse, error in
-            guard let self = self else { return }
+            guard let self = self else {
+                print("demo error: no self")
+                return
+            }
 
             if let error = error {
                 print("demo error:" + error.localizedDescription)

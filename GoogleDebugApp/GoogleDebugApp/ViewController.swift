@@ -38,9 +38,11 @@ class ViewController: UIViewController, GoogleQueryInfoListener, AdRequestLoader
     }
     
     func didReceiveResponse(adString: String, adUnitId: String) {
-        self.gadBannerLoader?.loadBannerView(adString: adString, adUnitId: adUnitId) { bannerView in
-            if let bannerView = bannerView {
-                self.appBannerView.addSubview(bannerView)
+        DispatchQueue.main.async {
+            self.gadBannerLoader?.loadBannerView(adString: adString, adUnitId: adUnitId) { bannerView in
+                if let bannerView = bannerView {
+                    self.appBannerView.addSubview(bannerView)
+                }
             }
         }
     }

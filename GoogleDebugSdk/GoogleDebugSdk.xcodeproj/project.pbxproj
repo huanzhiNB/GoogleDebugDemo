@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		6618E4722B69BDA000D67F33 /* GADInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6618E4712B69BDA000D67F33 /* GADInitializer.swift */; };
+		667A144B2B6C516F0079FFF3 /* FBLPromises.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 667A144A2B6C516E0079FFF3 /* FBLPromises.xcframework */; };
+		667A144F2B6C51730079FFF3 /* GoogleAppMeasurement.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 667A144E2B6C51730079FFF3 /* GoogleAppMeasurement.xcframework */; };
+		667A14522B6C51760079FFF3 /* GoogleAppMeasurementIdentitySupport.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 667A14512B6C51760079FFF3 /* GoogleAppMeasurementIdentitySupport.xcframework */; };
+		667A14552B6C517E0079FFF3 /* GoogleMobileAds.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 667A14542B6C517D0079FFF3 /* GoogleMobileAds.xcframework */; };
+		667A14582B6C51840079FFF3 /* GoogleUtilities.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 667A14572B6C51830079FFF3 /* GoogleUtilities.xcframework */; };
+		667A145B2B6C518A0079FFF3 /* nanopb.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 667A145A2B6C518A0079FFF3 /* nanopb.xcframework */; };
+		667A145E2B6C51910079FFF3 /* UserMessagingPlatform.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 667A145D2B6C51900079FFF3 /* UserMessagingPlatform.xcframework */; };
+		667A14AB2B71BC450079FFF3 /* GoogleQueryInfoFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667A14AA2B71BC450079FFF3 /* GoogleQueryInfoFetcher.swift */; };
+		667A14AD2B71BE9E0079FFF3 /* GADBannerLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667A14AC2B71BE9E0079FFF3 /* GADBannerLoader.swift */; };
 		66DCD9062B607F98009B1252 /* GoogleDebugSdk.docc in Sources */ = {isa = PBXBuildFile; fileRef = 66DCD9052B607F98009B1252 /* GoogleDebugSdk.docc */; };
 		66DCD90C2B607F98009B1252 /* GoogleDebugSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DCD9012B607F98009B1252 /* GoogleDebugSdk.framework */; };
 		66DCD9112B607F98009B1252 /* GoogleDebugSdkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DCD9102B607F98009B1252 /* GoogleDebugSdkTests.swift */; };
@@ -29,6 +38,15 @@
 		1BCE07F4A8567DDC6178A9BE /* libPods-GoogleDebugSdk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoogleDebugSdk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DE5776ADA09333E625BAA34 /* Pods-GoogleDebugSdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleDebugSdk.release.xcconfig"; path = "Target Support Files/Pods-GoogleDebugSdk/Pods-GoogleDebugSdk.release.xcconfig"; sourceTree = "<group>"; };
 		6618E4712B69BDA000D67F33 /* GADInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GADInitializer.swift; sourceTree = "<group>"; };
+		667A144A2B6C516E0079FFF3 /* FBLPromises.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FBLPromises.xcframework; sourceTree = "<group>"; };
+		667A144E2B6C51730079FFF3 /* GoogleAppMeasurement.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleAppMeasurement.xcframework; sourceTree = "<group>"; };
+		667A14512B6C51760079FFF3 /* GoogleAppMeasurementIdentitySupport.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleAppMeasurementIdentitySupport.xcframework; sourceTree = "<group>"; };
+		667A14542B6C517D0079FFF3 /* GoogleMobileAds.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleMobileAds.xcframework; sourceTree = "<group>"; };
+		667A14572B6C51830079FFF3 /* GoogleUtilities.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleUtilities.xcframework; sourceTree = "<group>"; };
+		667A145A2B6C518A0079FFF3 /* nanopb.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = nanopb.xcframework; sourceTree = "<group>"; };
+		667A145D2B6C51900079FFF3 /* UserMessagingPlatform.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = UserMessagingPlatform.xcframework; sourceTree = "<group>"; };
+		667A14AA2B71BC450079FFF3 /* GoogleQueryInfoFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleQueryInfoFetcher.swift; sourceTree = "<group>"; };
+		667A14AC2B71BE9E0079FFF3 /* GADBannerLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GADBannerLoader.swift; sourceTree = "<group>"; };
 		66DCD9012B607F98009B1252 /* GoogleDebugSdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleDebugSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66DCD9042B607F98009B1252 /* GoogleDebugSdk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogleDebugSdk.h; sourceTree = "<group>"; };
 		66DCD9052B607F98009B1252 /* GoogleDebugSdk.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = GoogleDebugSdk.docc; sourceTree = "<group>"; };
@@ -42,7 +60,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				667A144B2B6C516F0079FFF3 /* FBLPromises.xcframework in Frameworks */,
+				667A14552B6C517E0079FFF3 /* GoogleMobileAds.xcframework in Frameworks */,
+				667A14522B6C51760079FFF3 /* GoogleAppMeasurementIdentitySupport.xcframework in Frameworks */,
+				667A144F2B6C51730079FFF3 /* GoogleAppMeasurement.xcframework in Frameworks */,
 				BD6ACCABD1ED97FCC6A3754C /* libPods-GoogleDebugSdk.a in Frameworks */,
+				667A14582B6C51840079FFF3 /* GoogleUtilities.xcframework in Frameworks */,
+				667A145E2B6C51910079FFF3 /* UserMessagingPlatform.xcframework in Frameworks */,
+				667A145B2B6C518A0079FFF3 /* nanopb.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +85,13 @@
 		2168F5611D15C8E0394A61B8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				667A145D2B6C51900079FFF3 /* UserMessagingPlatform.xcframework */,
+				667A145A2B6C518A0079FFF3 /* nanopb.xcframework */,
+				667A14572B6C51830079FFF3 /* GoogleUtilities.xcframework */,
+				667A14542B6C517D0079FFF3 /* GoogleMobileAds.xcframework */,
+				667A14512B6C51760079FFF3 /* GoogleAppMeasurementIdentitySupport.xcframework */,
+				667A144E2B6C51730079FFF3 /* GoogleAppMeasurement.xcframework */,
+				667A144A2B6C516E0079FFF3 /* FBLPromises.xcframework */,
 				1BCE07F4A8567DDC6178A9BE /* libPods-GoogleDebugSdk.a */,
 			);
 			name = Frameworks;
@@ -91,6 +123,8 @@
 				66DCD9042B607F98009B1252 /* GoogleDebugSdk.h */,
 				66DCD9052B607F98009B1252 /* GoogleDebugSdk.docc */,
 				6618E4712B69BDA000D67F33 /* GADInitializer.swift */,
+				667A14AA2B71BC450079FFF3 /* GoogleQueryInfoFetcher.swift */,
+				667A14AC2B71BE9E0079FFF3 /* GADBannerLoader.swift */,
 			);
 			path = GoogleDebugSdk;
 			sourceTree = "<group>";
@@ -249,6 +283,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				66DCD9062B607F98009B1252 /* GoogleDebugSdk.docc in Sources */,
+				667A14AD2B71BE9E0079FFF3 /* GADBannerLoader.swift in Sources */,
+				667A14AB2B71BC450079FFF3 /* GoogleQueryInfoFetcher.swift in Sources */,
 				6618E4722B69BDA000D67F33 /* GADInitializer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,9 +448,11 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = GoogleDebugDemo.GoogleDebugSdk;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -444,9 +482,11 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = GoogleDebugDemo.GoogleDebugSdk;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;

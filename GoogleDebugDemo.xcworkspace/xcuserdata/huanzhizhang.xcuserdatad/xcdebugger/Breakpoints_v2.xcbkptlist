@@ -7,33 +7,175 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "DF35562F-8CE9-48CC-95D0-0DF8A99DA211"
+            uuid = "0A039B99-6E97-4357-9641-33F3B248C03E"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GoogleDebugApp/GoogleDebugApp/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
-            landmarkName = "bannerViewDidReceiveAd(_:)"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "onComplete(queryInfoString:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0A039B99-6E97-4357-9641-33F3B248C03E - be848505a11e860e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GoogleDebugApp.ViewController.onComplete(queryInfoString: Swift.String) -&gt; ()"
+                  moduleName = "GoogleDebugApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/huanzhizhang/Huanzhi/google-debug-demo/GoogleDebugApp/GoogleDebugApp/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "197">
+               </Location>
+               <Location
+                  uuid = "0A039B99-6E97-4357-9641-33F3B248C03E - be848505a11e860e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GoogleDebugApp.ViewController.onComplete(queryInfoString: Swift.String) -&gt; ()"
+                  moduleName = "GoogleDebugApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/huanzhizhang/Huanzhi/google-debug-demo/GoogleDebugApp/GoogleDebugApp/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "B17CAC78-2CFD-4651-BF7A-BD5E136C8101"
+            uuid = "A87589BD-3566-4F29-AAD1-531996997604"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GoogleDebugApp/GoogleDebugApp/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
-            landmarkName = "bannerView(_:didFailToReceiveAdWithError:)"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "didReceiveResponse(adString:adUnitId:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A87589BD-3566-4F29-AAD1-531996997604 - d17266ace0124dda"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.UIView&gt;) -&gt; () in GoogleDebugApp.ViewController.didReceiveResponse(adString: Swift.String, adUnitId: Swift.String) -&gt; ()"
+                  moduleName = "GoogleDebugApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/huanzhizhang/Huanzhi/google-debug-demo/GoogleDebugApp/GoogleDebugApp/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "A87589BD-3566-4F29-AAD1-531996997604 - d17266ace0124dda"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.UIView&gt;) -&gt; () in GoogleDebugApp.ViewController.didReceiveResponse(adString: Swift.String, adUnitId: Swift.String) -&gt; ()"
+                  moduleName = "GoogleDebugApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/huanzhizhang/Huanzhi/google-debug-demo/GoogleDebugApp/GoogleDebugApp/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "147">
+               </Location>
+               <Location
+                  uuid = "A87589BD-3566-4F29-AAD1-531996997604 - 29e3d3a4f21d44cb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GoogleDebugApp.ViewController.didReceiveResponse(adString: Swift.String, adUnitId: Swift.String) -&gt; ()"
+                  moduleName = "GoogleDebugApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/huanzhizhang/Huanzhi/google-debug-demo/GoogleDebugApp/GoogleDebugApp/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "A87589BD-3566-4F29-AAD1-531996997604 - d17266ace0124dda"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.UIView&gt;) -&gt; () in GoogleDebugApp.ViewController.didReceiveResponse(adString: Swift.String, adUnitId: Swift.String) -&gt; ()"
+                  moduleName = "GoogleDebugApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/huanzhizhang/Huanzhi/google-debug-demo/GoogleDebugApp/GoogleDebugApp/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "82">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5C070EC7-26E0-440C-82E2-4C76C232A295"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GoogleDebugApp/GoogleDebugApp/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5C070EC7-26E0-440C-82E2-4C76C232A295 - f31682ab1c1728c1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GoogleDebugApp.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "GoogleDebugApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/huanzhizhang/Huanzhi/google-debug-demo/GoogleDebugApp/GoogleDebugApp/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "292">
+               </Location>
+               <Location
+                  uuid = "5C070EC7-26E0-440C-82E2-4C76C232A295 - f31682ab1c1728ee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GoogleDebugApp.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "GoogleDebugApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/huanzhizhang/Huanzhi/google-debug-demo/GoogleDebugApp/GoogleDebugApp/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "282">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

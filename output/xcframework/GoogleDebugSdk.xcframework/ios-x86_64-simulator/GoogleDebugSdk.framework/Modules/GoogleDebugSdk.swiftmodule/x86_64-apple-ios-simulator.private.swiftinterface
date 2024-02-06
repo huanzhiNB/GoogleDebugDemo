@@ -9,6 +9,27 @@ import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@objc @_inheritsConvenienceInitializers public class GADBannerLoader : ObjectiveC.NSObject {
+  public typealias BannerAdFetchCompletion = (UIKit.UIView?) -> Swift.Void
+  public var gadBannerView: GoogleMobileAds.GAMBannerView?
+  public var rootViewController: UIKit.UIViewController?
+  public var completionHandler: GoogleDebugSdk.GADBannerLoader.BannerAdFetchCompletion?
+  public func loadBannerView(adString: Swift.String, adUnitId: Swift.String, completionHandler: @escaping GoogleDebugSdk.GADBannerLoader.BannerAdFetchCompletion)
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension GoogleDebugSdk.GADBannerLoader : GoogleMobileAds.GADBannerViewDelegate {
+  @objc dynamic public func bannerViewDidReceiveAd(_ bannerView: GoogleMobileAds.GADBannerView)
+  @objc dynamic public func bannerView(_ bannerView: GoogleMobileAds.GADBannerView, didFailToReceiveAdWithError error: any Swift.Error)
+}
+@objc @_inheritsConvenienceInitializers public class GoogleQueryInfoFetcher : ObjectiveC.NSObject {
+  public func fetch(completeListener: any GoogleDebugSdk.GoogleQueryInfoListener)
+  @objc override dynamic public init()
+  @objc deinit
+}
+public protocol GoogleQueryInfoListener : AnyObject {
+  func onComplete(queryInfoString: Swift.String)
+}
 @objc @_inheritsConvenienceInitializers public class GADInitializer : ObjectiveC.NSObject {
   public static func initializeGAD()
   @objc override dynamic public init()

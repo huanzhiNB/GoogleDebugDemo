@@ -1,0 +1,11 @@
+framework module AdServerDebugSdk {
+  umbrella header "AdServerDebugSdk.h"
+  export *
+
+  module * { export * }
+}
+
+module AdServerDebugSdk.Swift {
+  header "AdServerDebugSdk-Swift.h"
+  requires objc
+}

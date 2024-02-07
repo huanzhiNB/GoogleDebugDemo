@@ -14,32 +14,36 @@ class ViewController: UIViewController, GoogleQueryInfoListener, AdRequestLoader
     
     @IBOutlet var appBannerView: UIView!
     
-    //private var gadBannerView: GADBannerView? = nil
-    //private var
     private var adRequestLoader: AdRequestLoader?
     private var gadBannerLoader: GADBannerLoader?
     private var googleQueryInfoFetcher: GoogleQueryInfoFetcher?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         
-        //gadBannerView = GAMBannerView(adSize: GADAdSizeBanner)
-        //gadBannerView?.adUnitID = "ca-app-pub-3940256099942544/2934735716"
-        //gadBannerView?.rootViewController = self
-        //gadBannerView?.delegate = self
-        //gadBannerView?.load(GADRequest())
         adRequestLoader = AdRequestLoader()
         googleQueryInfoFetcher = GoogleQueryInfoFetcher()
         gadBannerLoader = GADBannerLoader()
         gadBannerLoader?.rootViewController = self
+        
+        // test with S2S load ad banner
+        // fetch query info -> send request to ad server -> send request to Google with ad Sring
         googleQueryInfoFetcher?.fetch(completeListener: self)
+        
+        // uncomment next call to test with client to server banner
+        /*
+        gadBannerLoader?.loadC2SBannerView(adUnitId: "ca-app-pub-3940256099942544/2934735716") { bannerView in
+            if let bannerView = bannerView {
+                self.appBannerView.addSubview(bannerView)
+            }
+        }
+         */
         
     }
     
     func didReceiveResponse(adString: String, adUnitId: String) {
         DispatchQueue.main.async {
-            self.gadBannerLoader?.loadBannerView(adString: adString, adUnitId: adUnitId) { bannerView in
+            self.gadBannerLoader?.loadS2SBannerView(adString: adString, adUnitId: adUnitId) { bannerView in
                 if let bannerView = bannerView {
                     self.appBannerView.addSubview(bannerView)
                 }
@@ -48,7 +52,7 @@ class ViewController: UIViewController, GoogleQueryInfoListener, AdRequestLoader
     }
     
     func didFailToReceiveResponse(errorMessage: String) {
-        
+        print("demo error: \(errorMessage)")
     }
     
     func onComplete(queryInfoString: String) {

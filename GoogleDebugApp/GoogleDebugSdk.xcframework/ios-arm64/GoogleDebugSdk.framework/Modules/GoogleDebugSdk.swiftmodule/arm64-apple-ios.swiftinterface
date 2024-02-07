@@ -14,7 +14,8 @@ import _SwiftConcurrencyShims
   public var gadBannerView: GoogleMobileAds.GAMBannerView?
   public var rootViewController: UIKit.UIViewController?
   public var completionHandler: GoogleDebugSdk.GADBannerLoader.BannerAdFetchCompletion?
-  public func loadBannerView(adString: Swift.String, adUnitId: Swift.String, completionHandler: @escaping GoogleDebugSdk.GADBannerLoader.BannerAdFetchCompletion)
+  public func loadS2SBannerView(adString: Swift.String, adUnitId: Swift.String, completionHandler: @escaping GoogleDebugSdk.GADBannerLoader.BannerAdFetchCompletion)
+  public func loadC2SBannerView(adUnitId: Swift.String, completionHandler: @escaping GoogleDebugSdk.GADBannerLoader.BannerAdFetchCompletion)
   @objc override dynamic public init()
   @objc deinit
 }

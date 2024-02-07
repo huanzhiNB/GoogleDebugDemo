@@ -418,8 +418,8 @@
           },
           {
             "kind": "Function",
-            "name": "loadBannerView",
-            "printedName": "loadBannerView(adString:adUnitId:completionHandler:)",
+            "name": "loadS2SBannerView",
+            "printedName": "loadS2SBannerView(adString:adUnitId:completionHandler:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -466,8 +466,60 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14GoogleDebugSdk15GADBannerLoaderC14loadBannerView8adString0I6UnitId17completionHandlerySS_SSySo6UIViewCSgctF",
-            "mangledName": "$s14GoogleDebugSdk15GADBannerLoaderC14loadBannerView8adString0I6UnitId17completionHandlerySS_SSySo6UIViewCSgctF",
+            "usr": "s:14GoogleDebugSdk15GADBannerLoaderC17loadS2SBannerView8adString0J6UnitId17completionHandlerySS_SSySo6UIViewCSgctF",
+            "mangledName": "$s14GoogleDebugSdk15GADBannerLoaderC17loadS2SBannerView8adString0J6UnitId17completionHandlerySS_SSySo6UIViewCSgctF",
+            "moduleName": "GoogleDebugSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadC2SBannerView",
+            "printedName": "loadC2SBannerView(adUnitId:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UIKit.UIView?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIView",
+                        "printedName": "UIKit.UIView",
+                        "usr": "c:objc(cs)UIView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14GoogleDebugSdk15GADBannerLoaderC17loadC2SBannerView8adUnitId17completionHandlerySS_ySo6UIViewCSgctF",
+            "mangledName": "$s14GoogleDebugSdk15GADBannerLoaderC17loadC2SBannerView8adUnitId17completionHandlerySS_ySo6UIViewCSgctF",
             "moduleName": "GoogleDebugSdk",
             "declAttributes": [
               "AccessControl"
@@ -958,28 +1010,35 @@
     {
       "filePath": "\/Users\/huanzhizhang\/Huanzhi\/google-debug-demo\/GoogleDebugSdk\/GoogleDebugSdk\/GADBannerLoader.swift",
       "kind": "BooleanLiteral",
-      "offset": 736,
+      "offset": 780,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/huanzhizhang\/Huanzhi\/google-debug-demo\/GoogleDebugSdk\/GoogleDebugSdk\/GADBannerLoader.swift",
       "kind": "StringLiteral",
-      "offset": 1056,
+      "offset": 1100,
       "length": 40,
       "value": "\"demo error: rootViewController is nill\""
     },
     {
       "filePath": "\/Users\/huanzhizhang\/Huanzhi\/google-debug-demo\/GoogleDebugSdk\/GoogleDebugSdk\/GADBannerLoader.swift",
       "kind": "StringLiteral",
-      "offset": 1512,
+      "offset": 1714,
+      "length": 40,
+      "value": "\"demo error: rootViewController is nill\""
+    },
+    {
+      "filePath": "\/Users\/huanzhizhang\/Huanzhi\/google-debug-demo\/GoogleDebugSdk\/GoogleDebugSdk\/GADBannerLoader.swift",
+      "kind": "StringLiteral",
+      "offset": 2213,
       "length": 43,
       "value": "\"demo error: \""
     },
     {
       "filePath": "\/Users\/huanzhizhang\/Huanzhi\/google-debug-demo\/GoogleDebugSdk\/GoogleDebugSdk\/GADBannerLoader.swift",
       "kind": "StringLiteral",
-      "offset": 1554,
+      "offset": 2255,
       "length": 2,
       "value": "\"\""
     },
@@ -1000,7 +1059,21 @@
     {
       "filePath": "\/Users\/huanzhizhang\/Huanzhi\/google-debug-demo\/GoogleDebugSdk\/GoogleDebugSdk\/GoogleQueryInfoFetcher.swift",
       "kind": "StringLiteral",
-      "offset": 1037,
+      "offset": 844,
+      "length": 43,
+      "value": "\"demo error: \""
+    },
+    {
+      "filePath": "\/Users\/huanzhizhang\/Huanzhi\/google-debug-demo\/GoogleDebugSdk\/GoogleDebugSdk\/GoogleQueryInfoFetcher.swift",
+      "kind": "StringLiteral",
+      "offset": 886,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/huanzhizhang\/Huanzhi\/google-debug-demo\/GoogleDebugSdk\/GoogleDebugSdk\/GoogleQueryInfoFetcher.swift",
+      "kind": "StringLiteral",
+      "offset": 1104,
       "length": 39,
       "value": "\"demo error: fail to receive queryInfo\""
     }

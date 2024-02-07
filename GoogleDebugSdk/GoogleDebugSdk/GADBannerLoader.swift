@@ -15,7 +15,8 @@ public class GADBannerLoader: NSObject {
     public var rootViewController: UIViewController?
     public var completionHandler: BannerAdFetchCompletion?
     
-    public func loadBannerView(adString: String, adUnitId: String, completionHandler: @escaping BannerAdFetchCompletion) {
+    public func loadS2SBannerView(adString: String, adUnitId: String, completionHandler: @escaping BannerAdFetchCompletion) {
+        // load server to server ad view
         self.completionHandler = completionHandler
         let gadBannerView = GAMBannerView(adSize: GADAdSizeBanner)
         self.gadBannerView = gadBannerView
@@ -30,6 +31,21 @@ public class GADBannerLoader: NSObject {
             print("demo error: rootViewController is nill")
         }
         gadBannerView.load(request)
+    }
+    
+    public func loadC2SBannerView(adUnitId: String, completionHandler: @escaping BannerAdFetchCompletion) {
+        // load client to server ad view
+        self.completionHandler = completionHandler
+        let gadBannerView = GAMBannerView(adSize: GADAdSizeBanner)
+        self.gadBannerView = gadBannerView
+        gadBannerView.adUnitID = adUnitId
+        if let rootViewController = self.rootViewController {
+            gadBannerView.rootViewController = rootViewController
+        } else {
+            print("demo error: rootViewController is nill")
+        }
+        gadBannerView.delegate = self
+        gadBannerView.load(GADRequest())
     }
 }
 

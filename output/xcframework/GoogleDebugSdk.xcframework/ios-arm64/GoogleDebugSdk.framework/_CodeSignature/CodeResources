@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/GoogleDebugSdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		1tha/70UXJeSGLFbAT0iR9gbVeE=
+		EnD9ZRxRfzlv47sg+N6xTgNUbyE=
 		</data>
 		<key>Modules/GoogleDebugSdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		5oiqhZoDRnKEqZtvrh7zu2tZK9I=
+		l7yt1YlWM23ImrQs02TNjjpE6C0=
 		</data>
 		<key>Modules/GoogleDebugSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/GoogleDebugSdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		5oiqhZoDRnKEqZtvrh7zu2tZK9I=
+		l7yt1YlWM23ImrQs02TNjjpE6C0=
 		</data>
 		<key>Modules/GoogleDebugSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		YJg53yiITpM5t646Ctoe8avfl2Y=
+		TD6xJi0FKphLTKNZG93ZnmG7+/w=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -69,22 +69,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1tha/70UXJeSGLFbAT0iR9gbVeE=
+			EnD9ZRxRfzlv47sg+N6xTgNUbyE=
 			</data>
 			<key>hash2</key>
 			<data>
-			K0bG2clXfcbTCSj+raNU2EC+Ki8cu1sYP7l2K0Vb3bc=
+			2DBoa+F5J+9vW6SxixgZAG9X1Y1Bao1OKqyKXQcQOPg=
 			</data>
 		</dict>
 		<key>Modules/GoogleDebugSdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5oiqhZoDRnKEqZtvrh7zu2tZK9I=
+			l7yt1YlWM23ImrQs02TNjjpE6C0=
 			</data>
 			<key>hash2</key>
 			<data>
-			BikV6pD36VTSOi8QauiMa7nEVMxQCf3OWflsTSpogZ0=
+			1NrtlnAs+ilDOnQOqbkamdVZQIVRM+ijppmyymmi8UU=
 			</data>
 		</dict>
 		<key>Modules/GoogleDebugSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -102,22 +102,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5oiqhZoDRnKEqZtvrh7zu2tZK9I=
+			l7yt1YlWM23ImrQs02TNjjpE6C0=
 			</data>
 			<key>hash2</key>
 			<data>
-			BikV6pD36VTSOi8QauiMa7nEVMxQCf3OWflsTSpogZ0=
+			1NrtlnAs+ilDOnQOqbkamdVZQIVRM+ijppmyymmi8UU=
 			</data>
 		</dict>
 		<key>Modules/GoogleDebugSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YJg53yiITpM5t646Ctoe8avfl2Y=
+			TD6xJi0FKphLTKNZG93ZnmG7+/w=
 			</data>
 			<key>hash2</key>
 			<data>
-			dLQQ79eRfsxfaqtX1BgIlNLs0qbCJsQy7jouMjqBIk4=
+			/bMh2gvbH+tQ9P0fYUUbuFQUu04yoMqdM01ketXxq5I=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

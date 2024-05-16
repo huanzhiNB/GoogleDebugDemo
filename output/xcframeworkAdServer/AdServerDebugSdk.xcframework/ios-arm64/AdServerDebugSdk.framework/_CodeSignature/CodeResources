@@ -18,7 +18,7 @@
 		</data>
 		<key>Frameworks/PrebidMobile.framework/PrebidMobile</key>
 		<data>
-		+EByi4dNg3VPgxMNz4YW7qCyalA=
+		vq9e5vHQBx7XI8jvcLVZi1EUdLI=
 		</data>
 		<key>Frameworks/PrebidMobile.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/AdServerDebugSdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		QjPTkvZYeWlxWpqr+E9J/XRXhMs=
+		eQF37pCd872QoCFHlpVaIPzrFwI=
 		</data>
 		<key>Modules/AdServerDebugSdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -100,7 +100,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lV7DobNCqeTLCYje/fYni3v0Qkk2Ozux+/rh1nGO05M=
+			/m6wzhWttur/ebL9BcCY+6vwftflr3b1WSzBN8d89Cs=
 			</data>
 		</dict>
 		<key>Frameworks/PrebidMobile.framework/_CodeSignature/CodeResources</key>
@@ -149,7 +149,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kUAWy/OpqYgrKX1yiKac3QVsKrC2kiwEkpFzvDaSalw=
+			fKKu7dV5nt73FWQjnZUreeQj+hBK5qC4DduJQDDDsu0=
 			</data>
 		</dict>
 		<key>Modules/AdServerDebugSdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>

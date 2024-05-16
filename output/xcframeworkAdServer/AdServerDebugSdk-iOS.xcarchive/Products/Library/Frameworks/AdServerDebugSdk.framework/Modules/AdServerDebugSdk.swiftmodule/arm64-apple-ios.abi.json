@@ -567,21 +567,21 @@
     {
       "filePath": "\/Users\/huanzhizhang\/Huanzhi\/google-debug-demo\/AdServerDebugSdk\/AdServerDebugSdk\/AdServerDebugSdk\/AdRequestLoader.swift",
       "kind": "StringLiteral",
-      "offset": 2783,
+      "offset": 2831,
       "length": 12,
       "value": "\"query_info\""
     },
     {
       "filePath": "\/Users\/huanzhizhang\/Huanzhi\/google-debug-demo\/AdServerDebugSdk\/AdServerDebugSdk\/AdServerDebugSdk\/AdRequestLoader.swift",
       "kind": "IntegerLiteral",
-      "offset": 2902,
+      "offset": 2950,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/huanzhizhang\/Huanzhi\/google-debug-demo\/AdServerDebugSdk\/AdServerDebugSdk\/AdServerDebugSdk\/AdRequestLoader.swift",
       "kind": "BooleanLiteral",
-      "offset": 2917,
+      "offset": 2965,
       "length": 4,
       "value": "true"
     }

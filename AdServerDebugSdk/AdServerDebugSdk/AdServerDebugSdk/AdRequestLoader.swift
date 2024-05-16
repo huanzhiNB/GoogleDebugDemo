@@ -56,8 +56,9 @@ public class AdRequestLoader: NSObject {
                                         prebidBannerAdSize: CGSize) -> AdUnitConfig {
         let adUnitConfig = AdUnitConfig(configId: configId, size: prebidBannerAdSize)
         adUnitConfig.adConfiguration.bannerParameters.api = PrebidConstants.supportedRenderingBannerAPISignals
-        adUnitConfig.nativeAdConfiguration = NativeAdConfiguration()
-        adUnitConfig.adFormats = [.display, .native]
+        //adUnitConfig.nativeAdConfiguration = NativeAdConfiguration() 
+        //adUnitConfig.adFormats = [.display, .native]
+        adUnitConfig.adFormats = [.display]
         
         adUnitConfig.addContextData(key: "query_info", value: gadQueryInfo)
         var assets = [NativeAsset]()

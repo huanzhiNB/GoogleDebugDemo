@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:GoogleHZDebugPod/GoogleHZDebugPod.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:AdServerDebugSdk/AdServerDebugSdk/AdServerDebugSdk.xcodeproj">
    </FileRef>
    <FileRef

@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = "An utility for MSP settings"
-  spec.homepage     = "https://github.com/aimsp/msp-ios-sdk/MSPSharedLibraries"
+  spec.homepage     = "https://github.com/huanzhiNB/GoogleDebugDemo.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/huanzhiNB/GoogleDebugDemo.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -93,6 +93,8 @@ Pod::Spec.new do |spec|
 
   spec.source_files  = "GoogleHZDebugPod/**/*.{h,m,swift}"
   spec.exclude_files = "Classes/Exclude"
+
+  spec.vendored_frameworks= "PrebidMobile.xcframework"
 
   #spec.dependency 'GoogleAdapter'
   #spec.vendored_frameworks= "PrebidMobile.xcframework", "MSPiOSCore.xcframework"

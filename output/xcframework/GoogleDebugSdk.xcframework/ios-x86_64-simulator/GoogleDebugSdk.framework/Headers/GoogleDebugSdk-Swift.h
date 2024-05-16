@@ -277,6 +277,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import GoogleMobileAds;
 @import ObjectiveC;
 #endif
 
@@ -299,8 +300,27 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 
+SWIFT_CLASS("_TtC14GoogleDebugSdk15GADBannerLoader")
+@interface GADBannerLoader : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class GADBannerView;
+
+@interface GADBannerLoader (SWIFT_EXTENSION(GoogleDebugSdk)) <GADBannerViewDelegate>
+- (void)bannerViewDidReceiveAd:(GADBannerView * _Nonnull)bannerView;
+- (void)bannerView:(GADBannerView * _Nonnull)bannerView didFailToReceiveAdWithError:(NSError * _Nonnull)error;
+@end
+
+
 SWIFT_CLASS("_TtC14GoogleDebugSdk14GADInitializer")
 @interface GADInitializer : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC14GoogleDebugSdk22GoogleQueryInfoFetcher")
+@interface GoogleQueryInfoFetcher : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

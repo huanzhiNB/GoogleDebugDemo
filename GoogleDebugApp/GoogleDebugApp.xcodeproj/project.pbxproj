@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5E53EB7FCC082C3D1640DC2D /* Pods_GoogleDebugApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DAE56D4543B24D543E753B1 /* Pods_GoogleDebugApp.framework */; };
-		6618E4732B69BE9800D67F33 /* GoogleDebugSdk.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DCD95A2B608F44009B1252 /* GoogleDebugSdk.xcframework */; };
-		6618E4742B69BE9800D67F33 /* GoogleDebugSdk.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 66DCD95A2B608F44009B1252 /* GoogleDebugSdk.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5E73CD45921D9A5919970014 /* Pods_GoogleDebugApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88B72C86DA02D7BB190BD8A2 /* Pods_GoogleDebugApp.framework */; };
+		667A147A2B6C585B0079FFF3 /* GoogleDebugSdk.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DCD95A2B608F44009B1252 /* GoogleDebugSdk.xcframework */; };
+		667A147B2B6C585B0079FFF3 /* GoogleDebugSdk.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 66DCD95A2B608F44009B1252 /* GoogleDebugSdk.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		667A14AF2B71C4880079FFF3 /* AdServerDebugSdk.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 667A14AE2B71C4870079FFF3 /* AdServerDebugSdk.xcframework */; };
+		667A14B02B71C4880079FFF3 /* AdServerDebugSdk.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 667A14AE2B71C4870079FFF3 /* AdServerDebugSdk.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		667A14B12B71C8660079FFF3 /* PrebidMobile.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DCD95E2B6096C7009B1252 /* PrebidMobile.xcframework */; };
+		667A14B22B71C8660079FFF3 /* PrebidMobile.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 66DCD95E2B6096C7009B1252 /* PrebidMobile.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		66DCD9282B60833A009B1252 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DCD9272B60833A009B1252 /* AppDelegate.swift */; };
 		66DCD92A2B60833A009B1252 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DCD9292B60833A009B1252 /* SceneDelegate.swift */; };
 		66DCD92C2B60833A009B1252 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DCD92B2B60833A009B1252 /* ViewController.swift */; };
@@ -39,13 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		6618E4752B69BE9900D67F33 /* Embed Frameworks */ = {
+		667A147C2B6C585B0079FFF3 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				6618E4742B69BE9800D67F33 /* GoogleDebugSdk.xcframework in Embed Frameworks */,
+				667A14B22B71C8660079FFF3 /* PrebidMobile.xcframework in Embed Frameworks */,
+				667A14B02B71C4880079FFF3 /* AdServerDebugSdk.xcframework in Embed Frameworks */,
+				667A147B2B6C585B0079FFF3 /* GoogleDebugSdk.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -54,7 +60,14 @@
 
 /* Begin PBXFileReference section */
 		27260D3E05739F5C4CF2F2A5 /* Pods-GoogleDebugApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleDebugApp.debug.xcconfig"; path = "Target Support Files/Pods-GoogleDebugApp/Pods-GoogleDebugApp.debug.xcconfig"; sourceTree = "<group>"; };
-		4DAE56D4543B24D543E753B1 /* Pods_GoogleDebugApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleDebugApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		667A14602B6C51E40079FFF3 /* FBLPromises.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FBLPromises.xcframework; sourceTree = "<group>"; };
+		667A14632B6C51EA0079FFF3 /* GoogleAppMeasurement.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleAppMeasurement.xcframework; sourceTree = "<group>"; };
+		667A14662B6C51F40079FFF3 /* GoogleAppMeasurementIdentitySupport.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleAppMeasurementIdentitySupport.xcframework; sourceTree = "<group>"; };
+		667A146A2B6C51FF0079FFF3 /* GoogleMobileAds.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleMobileAds.xcframework; sourceTree = "<group>"; };
+		667A146D2B6C52030079FFF3 /* GoogleUtilities.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleUtilities.xcframework; sourceTree = "<group>"; };
+		667A14702B6C52090079FFF3 /* nanopb.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = nanopb.xcframework; sourceTree = "<group>"; };
+		667A14732B6C520E0079FFF3 /* UserMessagingPlatform.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = UserMessagingPlatform.xcframework; sourceTree = "<group>"; };
+		667A14AE2B71C4870079FFF3 /* AdServerDebugSdk.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AdServerDebugSdk.xcframework; sourceTree = "<group>"; };
 		66DCD9242B60833A009B1252 /* GoogleDebugApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleDebugApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66DCD9272B60833A009B1252 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66DCD9292B60833A009B1252 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +84,7 @@
 		66DCD95A2B608F44009B1252 /* GoogleDebugSdk.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleDebugSdk.xcframework; sourceTree = "<group>"; };
 		66DCD95E2B6096C7009B1252 /* PrebidMobile.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = PrebidMobile.xcframework; sourceTree = "<group>"; };
 		66DCD9622B6096CD009B1252 /* PrebidMobileAdMobAdapters.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = PrebidMobileAdMobAdapters.xcframework; sourceTree = "<group>"; };
+		88B72C86DA02D7BB190BD8A2 /* Pods_GoogleDebugApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleDebugApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E233EF3D0757DCD9EE75B653 /* Pods-GoogleDebugApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleDebugApp.release.xcconfig"; path = "Target Support Files/Pods-GoogleDebugApp/Pods-GoogleDebugApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,8 +93,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E53EB7FCC082C3D1640DC2D /* Pods_GoogleDebugApp.framework in Frameworks */,
-				6618E4732B69BE9800D67F33 /* GoogleDebugSdk.xcframework in Frameworks */,
+				667A14AF2B71C4880079FFF3 /* AdServerDebugSdk.xcframework in Frameworks */,
+				667A14B12B71C8660079FFF3 /* PrebidMobile.xcframework in Frameworks */,
+				5E73CD45921D9A5919970014 /* Pods_GoogleDebugApp.framework in Frameworks */,
+				667A147A2B6C585B0079FFF3 /* GoogleDebugSdk.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,10 +183,18 @@
 		AB5B6ED445B570D8DA65BB2F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				667A14AE2B71C4870079FFF3 /* AdServerDebugSdk.xcframework */,
+				667A14732B6C520E0079FFF3 /* UserMessagingPlatform.xcframework */,
+				667A14702B6C52090079FFF3 /* nanopb.xcframework */,
+				667A146D2B6C52030079FFF3 /* GoogleUtilities.xcframework */,
+				667A146A2B6C51FF0079FFF3 /* GoogleMobileAds.xcframework */,
+				667A14662B6C51F40079FFF3 /* GoogleAppMeasurementIdentitySupport.xcframework */,
+				667A14632B6C51EA0079FFF3 /* GoogleAppMeasurement.xcframework */,
+				667A14602B6C51E40079FFF3 /* FBLPromises.xcframework */,
 				66DCD9622B6096CD009B1252 /* PrebidMobileAdMobAdapters.xcframework */,
 				66DCD95E2B6096C7009B1252 /* PrebidMobile.xcframework */,
 				66DCD95A2B608F44009B1252 /* GoogleDebugSdk.xcframework */,
-				4DAE56D4543B24D543E753B1 /* Pods_GoogleDebugApp.framework */,
+				88B72C86DA02D7BB190BD8A2 /* Pods_GoogleDebugApp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -186,8 +210,8 @@
 				66DCD9202B60833A009B1252 /* Sources */,
 				66DCD9212B60833A009B1252 /* Frameworks */,
 				66DCD9222B60833A009B1252 /* Resources */,
-				B3C085B096EAECF3D53EB243 /* [CP] Embed Pods Frameworks */,
-				6618E4752B69BE9900D67F33 /* Embed Frameworks */,
+				667A147C2B6C585B0079FFF3 /* Embed Frameworks */,
+				558733EE5F7D8EE66F227742 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -242,7 +266,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					66DCD9232B60833A009B1252 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -305,6 +329,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		558733EE5F7D8EE66F227742 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleDebugApp/Pods-GoogleDebugApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleDebugApp/Pods-GoogleDebugApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoogleDebugApp/Pods-GoogleDebugApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7FC0BC2BA66BACF825CB5C6A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -325,23 +366,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B3C085B096EAECF3D53EB243 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GoogleDebugApp/Pods-GoogleDebugApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GoogleDebugApp/Pods-GoogleDebugApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoogleDebugApp/Pods-GoogleDebugApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -463,6 +487,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -516,6 +541,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";

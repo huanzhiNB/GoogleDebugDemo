@@ -10,7 +10,7 @@ target 'GoogleDebugApp' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for GoogleDebugSdk
+  # Pods for GoogleDebugApp
   pod 'Google-Mobile-Ads-SDK', "10.14.0"
 
   #target 'GoogleDebugSdkTests' do
@@ -26,7 +26,7 @@ target 'GoogleDebugSdk' do
   # use_frameworks!
 
   # Pods for GoogleDebugSdk
-  pod 'Google-Mobile-Ads-SDK', "10.14.0", :modular_headers => true
+  #pod 'Google-Mobile-Ads-SDK', "10.14.0", :modular_headers => true
 
   #target 'GoogleDebugSdkTests' do
     # Pods for testing

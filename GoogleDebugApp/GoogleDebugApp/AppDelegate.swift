@@ -6,8 +6,9 @@
 //
 
 import UIKit
-import GoogleMobileAds
 import GoogleDebugSdk
+import AdServerDebugSdk
+import GoogleMobileAds
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,12 +18,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        GADMobileAds.sharedInstance().start()
-        
         //To fix the load error, please uncomment the next line
-        //GADInitializer.initializeGAD()
-        
-        
+        GADMobileAds.sharedInstance().start(completionHandler: nil)
+        GADInitializer.initializeGAD()
+        AdServerInitializer.initializeAdServer()
         return true
     }
 

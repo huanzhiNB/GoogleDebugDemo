@@ -1,0 +1,27 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AdServerDebugSdk
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+@_exported import AdServerDebugSdk
+import Foundation
+import PrebidMobile
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc @_inheritsConvenienceInitializers public class AdServerInitializer : ObjectiveC.NSObject {
+  public static func initializeAdServer()
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class AdRequestLoader : ObjectiveC.NSObject {
+  public func loadRequest(queryInfoString: Swift.String, delegate: any AdServerDebugSdk.AdRequestLoaderDelegate)
+  public func multiFormatAdUnitConfig(configId: Swift.String, gadQueryInfo: Swift.String, requestUUID: Swift.String, prebidBannerAdSize: CoreFoundation.CGSize) -> PrebidMobile.AdUnitConfig
+  public func SafeAs<T, U>(_ object: T?, _ objectType: U.Type) -> U?
+  @objc override dynamic public init()
+  @objc deinit
+}
+public protocol AdRequestLoaderDelegate : AnyObject {
+  func didReceiveResponse(adString: Swift.String, adUnitId: Swift.String)
+  func didFailToReceiveResponse(errorMessage: Swift.String)
+}

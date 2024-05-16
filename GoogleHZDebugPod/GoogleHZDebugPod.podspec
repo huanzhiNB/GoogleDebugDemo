@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "GoogleHZDebugPod"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.3"
   spec.summary      = "An utility helper for MSP"
 
   spec.ios.deployment_target = '13.0'
